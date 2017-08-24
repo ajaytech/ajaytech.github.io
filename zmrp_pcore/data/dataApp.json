@@ -1,0 +1,1984 @@
+{
+  "Shortage Summary": {
+    "Title": "Shortage Material Stock",
+    "Number": "4 Units",
+    "Text": "MATERIALS",
+    "State": "Error"
+  },
+  "Material Data": [
+    {
+      "Material Num": 1055,
+      "Material Name": "Spirit World",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Good readway LDA",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 11512,
+      "Material Name": "CLASSIC CONNOLLY BOXED SET",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Good readway LDA",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 16396,
+      "Material Name": "Collins Ireland Touring Map (Collins British Isles and Ireland Maps)",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Good readway LDA",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 22151,
+      "Material Name": "Scones, Muffins, and Tea Cakes : Breakfast Breads and Teatime Spreads",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 23137,
+      "Material Name": "Strong Medicine : How to Save Canada's Health Care System",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Good readway LDA",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 23138,
+      "Material Name": "I Love My Friends",
+      "Material Group": "Music",
+      "Material Type": "Music",
+      "Quantity" : "PC",
+      "Material Supplier":"Good readway LDA",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 26726,
+      "Material Name": "Mr Plod and Little Noddy",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 35986,
+      "Material Name": "Snoopy Blank Journal",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 38198,
+      "Material Name": "The Healing Path",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 38199,
+      "Material Name": "Into the Purple Valley",
+      "Material Group": "Music",
+      "Material Type": "Music",
+      "Quantity" : "PC",
+      "Material Supplier":"Good readway LDA",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 40220,
+      "Material Name": "Texas the Beautiful Cookbook",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 40716,
+      "Material Name": "Jane's Pocket Guide: Fighters of WWII (Jane's Pocket Guide)",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 47497,
+      "Material Name": "Our Baby: A Journal",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 48276,
+      "Material Name": "Breakfast in Bed : 90 Recipes for Creative Indulgences",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Good readway LDA",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 48277,
+      "Material Name": "Loverboy [US CD/12\"]",
+      "Material Group": "Music",
+      "Material Type": "Music",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 48561,
+      "Material Name": "Shadow Lines",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 48562,
+      "Material Name": "Lester Leaps In [ASV/Living Era]",
+      "Material Group": "Music",
+      "Material Type": "Music",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 49203,
+      "Material Name": "Angels of Mercy",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Good readway LDA",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 51604,
+      "Material Name": "Reptiles and Amphibians of Britain & Europe (Collins Field Guide)",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 55908,
+      "Material Name": "South the Beautiful Cookbook",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Good readway LDA",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    },
+    {
+      "Material Num": 63511,
+      "Material Name": "India: Belief and Ritual the Gods and Cosmos Meditation and Yogic Arts",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity" : "PC",
+      "Material Supplier":"Big Book Suplier Gmb",
+      "Availability": [
+        {
+          "Date": "15/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "16/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "17/07/2017",
+          "Quantity": 8
+        },
+        {
+          "Date": "18/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "19/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "20/07/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "21/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "22/07/2017",
+          "Quantity": 12
+        },
+        {
+          "Date": "23/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "24/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "25/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "26/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "27/07/2017",
+          "Quantity": 2
+        },
+        {
+          "Date": "28/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "29/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "30/07/2017",
+          "Quantity": 7
+        },
+        {
+          "Date": "31/07/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "01/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "02/08/2017",
+          "Quantity": 10
+        },
+        {
+          "Date": "03/08/2017",
+          "Quantity": 5
+        },
+        {
+          "Date": "04/08/2017",
+          "Quantity": 10
+        }
+      ]
+    }
+  ]
+}

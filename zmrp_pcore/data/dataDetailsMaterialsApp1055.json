@@ -1,0 +1,89 @@
+{
+  "Material Num": 1055,
+  "Material Name": "Spirit World",
+  "Material Group": "Book",
+  "Material Type": "Book",
+  "Quantity Avail": 100,
+  "Quantity Unit": "PC",
+  "State": "Shortage in few week",
+  "Material Supplier": "Good readway LDA",
+  "Stock flow": [
+    {
+      "Order Type":"SO",
+      "Order Num": 714,
+      "Order flow":"out",
+      "Material Number": 1055,
+      "Desc": "Q1 Routine Sale Sync",
+      "Vendor": "ereader 4u",
+      "Quantity": 32,
+      "Quantity Avail": 100,
+      "Quantity Unit": "PC",
+      "Date": "20/04/2017",
+      "Delivery Date": "20/04/2017"
+    },
+    {
+      "Order Type":"PO",
+      "Order Num": 14014,
+      "Order flow":"in",
+      "Material Number": 1055,
+      "Desc": "First Slot of May",
+      "Vendor": "Good readway LDA",
+      "Quantity": 80,
+      "Quantity Avail": 180,
+      "Quantity Unit": "PC",
+      "Date": "01/05/2017",
+      "Delivery Date": "01/05/2017"
+    },
+    {
+      "Order Type":"SO",
+      "Order Num": 715,
+      "Order flow":"out",
+      "Material Number": 1055,
+      "Desc": "Yearly Fictional Stock Syn",
+      "Vendor": "zmzm publish",
+      "Quantity": 20,
+      "Quantity Avail": 160,
+      "Quantity Unit": "PC",
+      "Date": "01/05/2017",
+      "Delivery Date": "01/05/2017"
+    },
+    {
+      "Order Type":"SO",
+      "Order flow":"out",
+      "Order Num": 716,
+      "Material Number": 1055,
+      "Desc": "Music Stock Up",
+      "Vendor": "Mega Now",
+      "Quantity": 200,
+      "Quantity Avail": -40,
+      "Quantity Unit": "PC",
+      "Date": "23/05/2017",
+      "Delivery Date": "23/05/2017"
+    },
+    {
+      "Order Type":"PO",
+      "Order Num": 14015,
+      "Order flow":"in",
+      "Material Number": 1055,
+      "Desc": "Summer sale preparation",
+      "Vendor": "Big Book Suplier Gmb",
+      "Quantity": 100,
+      "Quantity Avail": 60,
+      "Quantity Unit": "PC",
+      "Date": "15/06/2017",
+      "Delivery Date": "15/06/2017"
+    },
+    {
+      "Order Type":"PO",
+      "Order Num": 14015,
+      "Order flow":"in",
+      "Desc": "Music Mania Shopping",
+      "Vendor": "Good readway LDA",
+      "Quantity": 20,
+      "Quantity Avail": 80,
+      "Quantity Unit": "PC",
+      "Date": "01/07/2017",
+      "Delivery Date": "01/07/2017"
+    }    
+  ]
+}

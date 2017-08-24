@@ -1,0 +1,36 @@
+{
+  "Material Availablity": [
+    {
+      "daytype":"weekday",
+      "value":10,
+      "date":"12/07/2017"
+    },
+    {
+      "daytype":"weekday",
+      "value":2,
+      "date":"12/07/2017"
+    },
+    {
+      "daytype":"weekday",
+      "value":4,
+      "date":"12/07/2017"
+    },
+    {
+      "daytype":"weekday",
+      "value":8,
+      "date":"12/07/2017"
+    },{
+      "daytype":"weekday",
+      "value":12,
+      "date":"12/07/2017"
+    },{
+      "daytype":"weekday",
+      "value":10,
+      "date":"12/07/2017"
+    },{
+      "daytype":"weekend",
+      "value":8,
+      "date":"12/07/2017"
+    }
+  ]
+}

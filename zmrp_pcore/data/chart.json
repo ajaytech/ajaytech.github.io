@@ -1,0 +1,22 @@
+{ "Rowsets" : { 
+    "DateCreated" : "2017-03-27T19:40:28", "Version" : "15.1 SP2 Patch 5 (Jul 20, 2016)", "StartDate" : "2017-03-27T18:40:26-0500", "EndDate" : "2017-03-27T19:40:26-0500", "CachedTime" : "", 
+    "Rowset" : [ 
+    { "Columns" : { 
+        "Column" : [ 
+        { "Name" : "Status", "SourceColumn" : "Status", "Description" : "", "SQLDataType" : 1, "MinRange" : 1.0, "MaxRange" : 1.0 }, 
+        { "Name" : "Hours", "SourceColumn" : "Hours", "Description" : "", "SQLDataType" : 8, "MinRange" : 1.0, "MaxRange" : 1.0 }, 
+        { "Name" : "Type", "SourceColumn" : "Type", "Description" : "", "SQLDataType" : 1, "MinRange" : 1.0, "MaxRange" : 1.0 } ] }, 
+    "Row" : [ 
+        { "Status" : "Total Time", "Hours" : 168.00, "Type" : "total" }, 
+        { "Status" : "Available Time", "Hours" : 168.00, "Type" : "total" }, 
+        { "Status" : "Planned DownTime", "Hours" : -15.00, "Type" : "null" }, 
+        { "Status" : "Scheduled Time", "Hours" : 153.00, "Type" : "subtotal:1" }, 
+        { "Status" : "Unplanned DownTime", "Hours" : -76.00, "Type" : "null" }, 
+        { "Status" : "Run Time", "Hours" : 77.00, "Type" : "subtotal:1" }, 
+        { "Status" : "Performance Loss", "Hours" : -69.00, "Type" : "null" }, 
+        { "Status" : "Net Run Time", "Hours" : 8.00, "Type" : "subtotal:1" }, 
+        { "Status" : "Quality Loss", "Hours" : -0.15, "Type" : "null" }, 
+        { "Status" : "Full Production Time", "Hours" : 7.85, "Type" : "subtotal:1" } ]
+         } ]
+     }
+ }

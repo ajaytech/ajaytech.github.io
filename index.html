@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+		<link rel="stylesheet" type="text/css" href="zmrp_pcore/css/style.css">
+		<script 
+				id="sap-ui-bootstrap"
+				src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+				data-sap-ui-xx-bindingSyntax="complex"
+				data-sap-ui-libs="sap.m,sap.tnt,sap.ui.comp,sap.suite.ui.microchart,sap.ui.layout,sap.suite.ui.commons"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<script src="zmrp_pcore/util/formatters.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+
+		<script>
+				sap.ui.localResources("zmrp_pcore");
+				var app = new sap.m.App({initialPage:"idhome1"});
+				var pageHome = sap.ui.view({
+										id:"idhome1", 
+										viewName:"zmrp_pcore.home", 
+										type:sap.ui.core.mvc.ViewType.XML
+										});
+				var pageMaterialDetails = sap.ui.view({
+										id:"idMatStock", 
+										viewName:"zmrp_pcore.materialStock", 
+										type:sap.ui.core.mvc.ViewType.XML
+										});
+				var pageMaterialStockDetails = sap.ui.view({
+										id:"idMaterialStockDetails", 
+										viewName:"zmrp_pcore.materialStockDetails", 
+										type:sap.ui.core.mvc.ViewType.XML
+										});
+									
+				app.addPage(pageHome);
+				app.addPage(pageMaterialDetails);
+				app.addPage(pageMaterialStockDetails);
+				app.placeAt("content");
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

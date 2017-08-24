@@ -1,0 +1,161 @@
+<core:View 
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:l="sap.ui.layout"
+	xmlns:micro="sap.suite.ui.microchart"
+	xmlns:fb="sap.ui.comp.filterbar"
+	xmlns="sap.m"
+	controllerName="zmrp_pcore.materialStock" 
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Home Project CORE"
+		showNavButton="true"
+		navButtonPress="onBack">
+		<content>
+		<ObjectHeader
+		
+		title="{globalModel>/Shortage Summary/Title}"
+		number="{globalModel>/Shortage Summary/Number}">
+		<statuses>
+			<ObjectStatus
+				text="{globalModel>/Shortage Summary/Text}"
+				state="{globalModel>/Shortage Summary/State}" />
+		</statuses>
+		</ObjectHeader>
+		<l:VerticalLayout width="100%">
+			<fb:FilterBar 
+				id="idFilterBarMaterialView"
+				header="Live Search"
+				clear="onClear" 
+				showRestoreButton="false" 
+				showClearButton="true"
+				advancedMode="false"
+				showGoButton="false">
+
+		<fb:filterItems>
+		<fb:FilterItem name="ProductName" label="By Product">
+			<fb:control>
+				<Input type="Text" liveChange="onChangeProduct"/>
+			</fb:control>				
+		</fb:FilterItem>
+
+		</fb:filterItems>
+
+		<fb:filterItems>
+		<fb:FilterItem name="ProductID" label="By ID(Exact)">
+			<fb:control>
+				<Input type="Text" liveChange="onChangeID"/>
+			</fb:control>				
+		</fb:FilterItem>
+		</fb:filterItems>
+
+		<fb:filterItems>
+		<fb:FilterItem name="ProductSupplier" label="By Supplier">
+			<fb:control>
+				<Input type="Text" liveChange="onChangeSupplier"/>
+			</fb:control>				
+		</fb:FilterItem>
+
+		</fb:filterItems>
+		
+		<!--fb:filterItems>
+		<fb:FilterItem name="B" label="Region" labelTooltip="Filet by Region" mandatory="true">
+					<fb:control>
+						
+						<ComboBox type="Text" change="onChange" label="Filer by Product">
+						     <items>
+						        <core:Item key="001" text="EMEA"/>
+						        <core:Item key="002" text="America"/>
+						        <core:Item key="003" text="APJ"/>
+						     </items>
+						</ComboBox>						
+					</fb:control>				
+				</fb:FilterItem>				
+			</fb:filterItems-->
+			
+			 </fb:FilterBar>	
+				</l:VerticalLayout>	
+			
+		<Table id="idProductsTable"
+		inset="false"
+		mode="MultiSelect"
+		items="{globalModel>/Material Data/}">
+		<columns>
+			<Column 
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<header>
+					<Text text="Material" />
+				</header>
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true" >
+				<header>
+					<Text text="Material Group" />
+				</header>
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true">
+				<header>
+					<Text text="Supplier" />
+				</header>
+			</Column>
+			<Column
+				minScreenWidth="Tablet"
+				demandPopin="true"
+				hAlign="Center">
+				<header>
+					<Text text="Stock Available Now" />
+				</header>
+			</Column>
+			<Column hAlign="Right">
+				<header>
+					<Text text="Stock Availablity(Next 3)" />
+				</header>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<cells>
+					<ObjectIdentifier
+						title="{globalModel>Material Name}"
+						text="{globalModel>Material Num}"/>
+					<Text
+						text="{globalModel>Material Group}" />
+					<Text
+						text="{globalModel>Material Supplier}" />
+					<ObjectNumber
+						number="{globalModel>Availability/0/Quantity}"
+						unit="{globalModel>/Quantity}" />
+					
+						<FlexBox height="70px" width="170px">
+							<micro:ColumnMicroChart isResponsive="true"
+								columns="{globalModel>Availability/}">
+								<micro:columns>
+									<micro:ColumnMicroChartData 
+										value="{globalModel>Quantity}"
+										color="{
+											 path: 'globalModel>Quantity',
+											 formatter: '.formatter.formatBarColor'
+											}"/>
+								</micro:columns>
+							</micro:ColumnMicroChart>
+						</FlexBox>
+						</cells>
+			</ColumnListItem>
+		</items>	
+		</Table>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+					<ToolbarSpacer/>
+					<Button type="Emphasized" text="Add to Detail" press="onDetails" />
+
+					
+			</Toolbar>
+		</footer>
+
+	</Page>
+</core:View>

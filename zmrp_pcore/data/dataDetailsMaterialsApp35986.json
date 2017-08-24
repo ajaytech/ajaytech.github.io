@@ -1,0 +1,74 @@
+{
+  "Material Num": 35986,
+  "Material Name": "Snoopy Blank Journal",
+  "Material Group": "Book",
+  "Material Type": "Book",
+  "Quantity Avail": 100,
+  "Quantity Unit": "PC",
+  "State": "Shortage in few week",
+  "Material Supplier": "Big Book Suplier Gmb",
+  "Stock In": [
+    {
+      "Purchase Order": 14014,
+      "Material Number": 35986,
+      "Desc": "First Slot of May",
+      "Vendor": "Good readway LDA",
+      "Quantity": 80,
+      "Date": "01/05/2017",
+      "Delivery Date": "01/05/2017"
+    },
+    {
+      "Purchase Order": 14015,
+      "Material Number": 35986,
+      "Desc": "Summer sale preparation",
+      "Vendor": "Big Book Suplier Gmb",
+      "Quantity": 100,
+      "Date": "15/06/2017",
+      "Delivery Date": "15/06/2017"
+    },
+    {
+      "Purchase Order": 14015,
+      "Material Number": 35986,
+      "Desc": "Summer sale preparation",
+      "Vendor": "Good readway LDA",
+      "Quantity": 100,
+      "Date": "15/06/2017",
+      "Delivery Date": "15/06/2017"
+    },
+    {
+      "Purchase Order": 14016,
+      "Material Number": 35986,
+      "Desc": "Music Mania Shopping",
+      "Vendor": "Good readway LDA",
+      "Quantity": 20,
+      "Date": "01/07/2017",
+      "Delivery Date": "01/07/2017"
+    }
+  ],
+  "Stock Out": [
+    {
+      "Sales Order Number": 714,
+      "Material Number": 35986,
+      "Desc": "Q1 Routine Sale Sync",
+      "Vendor": "ereader 4u",
+      "Quantity": 32,
+      "Date": "20/04/2017"
+    },
+    {
+      "Sales Order Number": 715,
+      "Material Number": 35986,
+      "Desc": "Yearly Fictional Stock Syn",
+      "Vendor": "zmzm publish",
+      "Quantity": 20,
+      "Date": "20/05/2017"
+    },
+    {
+      "Sales Order Number": 716,
+      "Material Number": 35986,
+      "Desc": "Music Stock Up",
+      "Vendor": "Mega Now",
+      "Quantity": 15,
+      "Date": "23/05/2017"
+    }
+  ]
+}

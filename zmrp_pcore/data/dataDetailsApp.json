@@ -1,0 +1,24 @@
+{
+  "Material Details": [
+    {
+      "Material Num": 1055,
+      "Material Name": "Spirit World",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity Avail": 100,
+      "Quantity Unit": "PC",
+      "State": "Shortage in few week",
+      "Material Supplier": "Good readway LDA"
+         },
+    {
+      "Material Num": 35986,
+      "Material Name": "Snoopy Blank Journal",
+      "Material Group": "Book",
+      "Material Type": "Book",
+      "Quantity Avail": 100,
+      "Quantity Unit": "PC",
+      "State": "Shortage in few week",
+      "Material Supplier": "Big Book Suplier Gmb"
+      }
+  ]
+}

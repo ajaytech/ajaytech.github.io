@@ -1,0 +1,15 @@
+{	"TileCollection":[
+			{
+			"icon":"sap-icon://inspection",
+			"title":"Monitor Late Purchase Order",
+			"info":"MRP"
+		},{
+			"icon":"sap-icon://product",
+			"number":"10",
+			"numberUnit":"4",
+			"title":"Monitor",
+			"info":"Shortage",
+			"infoState":"Error" 
+		}
+	]
+}

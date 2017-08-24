@@ -1,0 +1,299 @@
+<core:View 
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:l="sap.ui.layout"
+	xmlns:c="sap.suite.ui.commons"
+	xmlns:viz="sap.viz.ui5.controls"
+	xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds"
+	xmlns:viz.data="sap.viz.ui5.data"
+	xmlns="sap.m"
+	controllerName="zmrp_pcore.materialStockDetails" 
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page 
+		title="Details for Materials"
+		showNavButton="true"
+		navButtonPress="onBack">
+		<content>
+		<l:ResponsiveSplitter defaultPane="default">
+		<l:PaneContainer>
+			<l:SplitPane 
+				requiredParentWidth="200" 
+				id="default"
+				height="100%">
+				<Panel 
+					class="panelListDetails"
+					headerText="Materials"
+					height="100%">
+					<headerToolbar>
+					<Toolbar>
+						<SearchField width="100%"  placeholder="Search Material"
+						liveChange="filterItems"/>
+					</Toolbar>
+					</headerToolbar>
+					 <content 
+					 	height="100%">
+					<List 
+						id="idListDetails"
+						items="{detailMaterial>/Material Details}">
+						<ObjectListItem 
+							title="{detailMaterial>Material Name}" 
+							type="Active"
+							press="onListItemPress"
+							number="{detailMaterial>Quantity Avail}"
+							numberUnit="{detailMaterial>Quantity Unit}"
+							height="100%">
+							<firstStatus>
+							<ObjectStatus
+								text="{detailMaterial>State}"
+								state="Error" />
+						</firstStatus>
+								</ObjectListItem>
+					</List>
+				</content>
+				</Panel>
+			</l:SplitPane>
+			<l:PaneContainer 
+				
+				orientation="Vertical">
+							<l:SplitPane  requiredParentWidth="800">
+								<l:VerticalLayout width="100%">
+								<ObjectHeader
+					
+					title="{detailMaterialStock>/Material Name}" 
+					number="{detailMaterialStock>/Quantity Avail}"
+					numberUnit="{detailMaterialStock>/Quantity Unit}" >
+					<statuses>
+						<ObjectStatus
+							text="{detailMaterialStock>/State}"
+								state="Error" />
+							
+							</statuses>
+							<attributes>
+							<ObjectAttribute text="{detailMaterialStock>/Material Num}" />
+							<ObjectAttribute text="{detailMaterialStock>/Material Type}" />
+							<ObjectAttribute title="Supplier" text="{detailMaterialStock>/Material Supplier}"/>
+							</attributes>
+			</ObjectHeader>
+					
+					<IconTabBar
+					id="idIconTabBar"
+					select="handleIconTabBarSelect"
+					class="sapUiResponsiveContentPadding">
+					<items>
+						<IconTabFilter
+						icon="sap-icon://alert"
+						iconColor="sap.ui.core.IconColor.Neutral"
+						text="Stock Details">
+						<content>
+							<l:FixFlex id='chartFixFlex'
+								fixContentSize="300px">
+							<l:fixContent>
+							<c:ChartContainer
+								id="chartContainer"
+								showFullScreen="true"
+								showPersonalization="false"
+								autoAdjustHeight="true"
+								showLegend="true"
+								personalizationPress="attachPersonalizationPress"
+								contentChange="attachContentChange"
+								title="Stock Details">
+								<c:content>
+								
+									<c:ChartContainerContent
+								icon = "sap-icon://table-chart"
+								title = "Details Chart">
+								<c:content>						
+										<Table
+									inset="false"
+									items="{detailMaterialStock>/Stock flow/}">
+									<columns>
+										<Column width="12em" mergeDuplicates="true">
+											<header>
+												<Text text="Delivery Date" />
+											</header>
+										</Column>
+										<Column
+											minScreenWidth="Tablet"
+											demandPopin="true" >
+											<header>
+												<Text text="MRP Element" />
+											</header>
+										</Column>
+										<Column
+											minScreenWidth="Tablet"
+											demandPopin="true">
+											<header>
+												<Text text="Quantity" />
+											</header>
+										</Column>
+
+										<Column
+											minScreenWidth="Tablet"
+											demandPopin="true">
+											<header>
+												<Text text="Stock Avilable" />
+											</header>
+										</Column>
+										
+									</columns>
+									<items>
+										<ColumnListItem>
+											<cells>
+												<ObjectIdentifier
+													text="{detailMaterialStock>Delivery Date}"/>
+												<ObjectIdentifier
+													title="{detailMaterialStock>Order Type} {detailMaterialStock>Order Num}  "/>
+																								
+												<FlexBox >
+													<items>
+														<ObjectIdentifier
+															title="{detailMaterialStock>Quantity}"
+															text="{detailMaterialStock>Quantity Unit}" />
+													<core:Icon
+														src="{	
+														 path: 'detailMaterialStock>Order flow',
+														 formatter:'.formatter.formatOrderIcons'
+																}"
+														class="size4"
+														color="{	 
+														path: 'detailMaterialStock>Order flow',
+														formatter:'.formatter.formatOrderColor'
+																}" >
+													</core:Icon>
+													</items>
+												</FlexBox>
+												<FlexBox >
+													<items>
+														<ObjectIdentifier
+															title="{detailMaterialStock>Quantity Avail}"
+															visible="{	 
+																	path: 'detailMaterialStock>Quantity Avail',
+																	formatter:'.formatter.formatVisible'
+																}"
+															/>
+															<Button 
+																type="Reject" 
+																text="{detailMaterialStock>Quantity Avail} Fix it" 
+																press="onPressSuggestion"
+																visible="{	 
+																	path: 'detailMaterialStock>Quantity Avail',
+																	formatter:'.formatter.formatVisibleBtn'
+																}" />
+													</items>
+												</FlexBox>
+											</cells>
+										</ColumnListItem>
+									</items>	
+									</Table>
+								</c:content>
+									</c:ChartContainerContent>
+									<c:ChartContainerContent
+								icon = "sap-icon://line-chart"
+								title = "Line Chart">
+								<c:content>						
+										<viz:Popover id="idPopOver">
+										</viz:Popover>
+										<viz:VizFrame id="idVizFrame" 
+
+										height='100%' width="100%" vizType='waterfall'>
+										<viz:dataset>
+										<viz.data:FlattenedDataset
+										data="{detailMaterialStockGraph>/}">
+										<viz.data:dimensions>
+										<viz.data:DimensionDefinition 
+												name="Type"
+                               					value="{detailMaterialStockGraph>Order Type}" />
+                           			 	<viz.data:DimensionDefinition 
+                           			 			name="Date"
+                                				value="{detailMaterialStock>Date}" />
+										</viz.data:dimensions>
+
+										<viz.data:measures>
+										<viz.data:MeasureDefinition name="Quantity"
+                                			value="{	
+													 parts: [
+														 		'detailMaterialStockGraph>Order Type',
+														 		'detailMaterialStockGraph>Quantity',
+														 		'detailMaterialStockGraph>Start',
+														 		'detailMaterialStockGraph>Quantity Avail'
+
+													 		],
+													formatter: '.formatter.formatOrderQuantity'
+															}" />
+										</viz.data:measures>
+										</viz.data:FlattenedDataset>
+										</viz:dataset>
+										
+										<viz:feeds>
+										 <viz.feeds:FeedItem 
+										 			uid="valueAxis" 
+										 			type="Measure"
+							                        values="Quantity"/>
+							                    <viz.feeds:FeedItem 
+							                    	uid="categoryAxis" 
+							                    	type="Dimension"
+							                        values="Date" />
+							                    <viz.feeds:FeedItem 
+							                    	uid="waterfallType" 
+							                    	type="Dimension"
+							                        values="Type" />
+										</viz:feeds>
+										</viz:VizFrame>
+								</c:content>
+									</c:ChartContainerContent>
+								
+							</c:content>
+							</c:ChartContainer>
+
+							</l:fixContent>
+							</l:FixFlex>
+					</content>
+					</IconTabFilter>
+					</items>
+					</IconTabBar>
+					<l:Grid class="suggestionContainer" defaultSpan="L12 M12 S12" 
+						width = "100%">
+					<l:content width = "100%">
+					<TileContainer
+							class="suggestionContainer"
+							id="idSuggestionContainer"
+							 width="100%"
+						    tiles="{suggestion>/Suggestions}"
+						    height="270px">
+					    <CustomTile>
+						<content>
+							<VBox 
+							class="suggestionVbox">
+							<items>
+							<Label text="{suggestion>Title}" />
+							<Label text="{suggestion>Desc}" />
+					      <RatingIndicator 
+					      	maxValue="5" 
+					      	class="sapUiSmallMarginBottom" 
+					      	value="{suggestion>Rating}"
+					      	enabled="false"/>
+					      </items>
+					      </VBox>
+						</content>
+						</CustomTile>
+					  </TileContainer>
+					 </l:content>
+					</l:Grid>
+				</l:VerticalLayout>
+				</l:SplitPane>
+			</l:PaneContainer>
+		</l:PaneContainer>
+	</l:ResponsiveSplitter>
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+					<ToolbarSpacer/>
+					<Button type="Emphasized" text="Update" press="onUpdate" />
+
+					
+			</Toolbar>
+		</footer>
+
+	</Page>
+</core:View>

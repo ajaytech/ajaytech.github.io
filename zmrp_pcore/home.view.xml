@@ -1,0 +1,36 @@
+<core:View 
+	xmlns:core="sap.ui.core" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m"
+	xmlns:tnt="sap.tnt"
+	controllerName="zmrp_pcore.home" 
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Home Project CORE"
+		enableScrolling="false" >
+		
+		<content>
+		<TileContainer
+			id="container"
+			tileDelete="handleTileDelete"
+			tiles="{/TileCollection}">
+			<StandardTile
+				icon="{icon}"
+				type="{type}"
+				number="{number}"
+				numberUnit="{numberUnit}"
+				title="{title}"
+				info="{info}"
+				infoState="{infoState}" 
+				press="onHomeTilePress"/>
+		</TileContainer>
+	</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer/>
+					<Label text="Project CORE Powered By SAP® HANA®" />
+					
+				<ToolbarSpacer/>
+			</Toolbar>
+		</footer>
+	</Page>
+</core:View>
